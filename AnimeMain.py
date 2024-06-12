@@ -11,6 +11,8 @@ import csv
 import requests
 import random
 
+from keep_alive import keep_alive
+
 # Load environment variables
 load_dotenv()
 TOKEN = os.environ.get("TOKEN")
@@ -530,4 +532,5 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
+    keep_alive()
     main()
