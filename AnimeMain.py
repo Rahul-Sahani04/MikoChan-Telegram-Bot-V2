@@ -148,6 +148,8 @@ def search(update, context):
     
 
 def get_anime_info_by_id(update, context):
+    global isUserSelectingEpisode
+    isUserSelectingEpisode = True
     
     # if /info contains an anime ID, get the anime info immediately without asking the user to enter an ID again
     if len(context.args) > 0:
