@@ -9,7 +9,7 @@ from PIL import Image
 
 
 # Configure the Gemini API
-api_key =  "AIzaSyDORIRmb1YW2SZcXwvbiCZzTVWUinPw418"
+api_key = os.environ.get("API_URL")
 genai.configure(api_key=api_key)
 
 safety_settings = {
@@ -54,7 +54,7 @@ def get_image_gemini_reply(message):
         return f"Sorry, I couldn't understand that. Error: {str(e)}"
 
 # Telegram bot configuration
-telegram_api_key = '7424009300:AAF0DGaRSWXrI3Z4JExNHx5P4pyyq65HGIc'
+telegram_api_key = '7424009300:XXXXXXXXXXXXXXXXXX'
 bot = Bot(token=telegram_api_key)
 updater = Updater(token=telegram_api_key, use_context=True)
 dispatcher = updater.dispatcher

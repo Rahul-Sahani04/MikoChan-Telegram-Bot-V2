@@ -22,8 +22,9 @@ isUserSelectingAnime = False
 isUserSelectingEpisode = False
 isUserSelectingPage = False
 
-# Configure the Gemini API
-api_key = "AIzaSyDORIRmb1YW2SZcXwvbiCZzTVWUinPw418"
+# Configure the Gemini API and it from the environment variable
+
+api_key = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
 safety_settings = {
