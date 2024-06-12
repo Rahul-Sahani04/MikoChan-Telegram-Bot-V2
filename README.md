@@ -36,7 +36,7 @@ To get started with the Amazing Project MikoChan V2, follow these simple steps:
 
 Clone the repository: 
 ```bash
-git clone https://github.com/Rahul-Sahani04/MikoChan V2-Telegram-Bot.git
+git clone https://github.com/Rahul-Sahani04/MikoChan-Telegram-Bot-V2.git
 ```
 
 Navigate to the project directory: 
