@@ -18,7 +18,7 @@ Now Powered by the Gemini API, the Amazing MikoChan is your go-to source for all
 
 **Streaming Links:** Say goodbye to the hassle of finding reliable streaming links for anime episodes and movies. The Amazing MikoChan can conjure up streaming links with a single click, ensuring you can start watching your chosen anime immediately.
 
-**AI Chatbot:** The Amazing MikoChan is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered.
+**AI Chatbot:** The Amazing MikoChan is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered. AI Chatbot is powered by the Gemini API.
 
 **Upcoming Features:** The Amazing MikoChan is continuously evolving and expanding its features. Stay tuned for upcoming updates that will bring even more exciting functionalities to enhance your anime experience.
 
@@ -41,13 +41,19 @@ git clone https://github.com/Rahul-Sahani04/MikoChan-Telegram-Bot.git
 
 Navigate to the project directory: 
 ```bash
-cd MikoChan-Telegram-Bot
+cd MikoChan-Telegram-Bot-V2
 ```
 
 Install the dependencies: 
 ```bash
 pip install -r requirements.txt
 ```
+
+Generate Chat History:  
+```bash
+python3 MikoChanBOT.py
+```
+
 Run MikoChan: 
 ```bash
 python3 AnimeMain.py
