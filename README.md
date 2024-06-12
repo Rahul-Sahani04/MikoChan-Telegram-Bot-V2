@@ -2,11 +2,14 @@
  Meet Miko Chan: Your Anime Guide! 🌸 
  /start - Activate the anime frenzy! 
  /search - Dive into the anime universe! 📺✨
+ /info - Get detailed information about your favorite anime! 📜🔍
 
 <img src="assets/banner.png" width="100%" />
 
 ## Description
 Welcome to the Amazing Project MikoChan! This project is an incredible tool for anime enthusiasts, providing a seamless and immersive anime experience. It acts as your ultimate anime companion, allowing you to dive deep into the world of anime with ease and convenience. 
+
+Now Powered by the Gemini API, the Amazing MikoChan is your go-to source for all things anime, from searching for your favorite shows to accessing detailed information and streaming links. With the Amazing MikoChan, you can explore the vast universe of anime and discover new shows to enjoy. So, what are you waiting for? Dive into the world of anime with the Amazing Project MikoChan today! 🌸📺✨
 
 ## Unique Features
 **Search Anime:** With the Amazing MikoChan, you can search for your favorite anime shows effortlessly. Simply enter the name of the anime you're interested in, and the project will fetch all the relevant details.
@@ -14,6 +17,8 @@ Welcome to the Amazing Project MikoChan! This project is an incredible tool for 
 **Detailed Information:** Gain access to comprehensive and captivating details about each anime you search for. The Amazing MikoChan will provide you with synopses, character information, and other juicy tidbits without spoiling the plot.
 
 **Streaming Links:** Say goodbye to the hassle of finding reliable streaming links for anime episodes and movies. The Amazing MikoChan can conjure up streaming links with a single click, ensuring you can start watching your chosen anime immediately.
+
+**AI Chatbot:** The Amazing MikoChan is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered.
 
 **Upcoming Features:** The Amazing MikoChan is continuously evolving and expanding its features. Stay tuned for upcoming updates that will bring even more exciting functionalities to enhance your anime experience.
 
@@ -53,10 +58,22 @@ python3 AnimeMain.py
 - **/start** - Activate the anime frenzy!
 - **/search** - Dive into the vast ocean of anime awesomeness!
 - **/cancel** - Cancels the search
+- **/info** - Get detailed information about your favorite anime!
+
+#### Example Commands 
+- `/search Naruto` - Searches for the anime "Naruto"
+- `/info 269` - Get detailed information about your favorite anime!
+
+#### During Search
+- **/cancel** - Cancels the search
+- **/info** - Get detailed information about your favorite anime!
+
 
 #### During Navigation
 - **next** - To go to the next page.
 - **back** - To go to the previous page.
+
+
 
 ## Configuration
 Change the Token based on the token of your bot
