@@ -334,8 +334,6 @@ def get_anime_details(anime_info):
 def select_episode(update, context):
     global isUserSearching, isUserSelectingAnime, isUserSelectingEpisode, isUserSelectingPage
     
-    
-    
     selected_episode_number = update.message.text.replace(" ", "")
     anime_id = context.user_data['anime_id']
 
@@ -489,8 +487,8 @@ def handle_image(update: Update, context: CallbackContext):
     update.message.reply_text(gemini_reply, parse_mode="Markdown")
     
     # Update the conversation history
-    person.append({"role": "user", "parts": ["Image received."]})
-    person.append({"role": "model", "parts": [gemini_reply]})
+    # person.append({"role": "user", "parts": ["Image received."]})
+    # person.append({"role": "model", "parts": [gemini_reply]})
     
     # Save the updated context messages
     with open(history_file_path, "wb") as file:

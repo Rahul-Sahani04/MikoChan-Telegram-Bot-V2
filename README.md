@@ -20,6 +20,8 @@ Now Powered by the Gemini API, the Amazing MikoChan V2 is your go-to source for 
 
 **AI Chatbot:** The Amazing MikoChan V2 is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered. AI Chatbot is powered by the Gemini API.
 
+**Image Recognition:** The Amazing MikoChan V2 can recognize images and provide information about the anime characters or scenes depicted in them. Simply upload an image, and the project will work its magic to identify the anime-related content.
+
 **Upcoming Features:** The Amazing MikoChan V2 is continuously evolving and expanding its features. Stay tuned for upcoming updates that will bring even more exciting functionalities to enhance your anime experience.
 
 ## Table of Contents
