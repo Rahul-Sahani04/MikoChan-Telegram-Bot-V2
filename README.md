@@ -7,20 +7,20 @@
 <img src="assets/banner.png" width="100%" />
 
 ## Description
-Welcome to the Amazing Project MikoChan! This project is an incredible tool for anime enthusiasts, providing a seamless and immersive anime experience. It acts as your ultimate anime companion, allowing you to dive deep into the world of anime with ease and convenience. 
+Welcome to the Amazing Project MikoChan V2! This project is an incredible tool for anime enthusiasts, providing a seamless and immersive anime experience. It acts as your ultimate anime companion, allowing you to dive deep into the world of anime with ease and convenience. 
 
-Now Powered by the Gemini API, the Amazing MikoChan is your go-to source for all things anime, from searching for your favorite shows to accessing detailed information and streaming links. With the Amazing MikoChan, you can explore the vast universe of anime and discover new shows to enjoy. So, what are you waiting for? Dive into the world of anime with the Amazing Project MikoChan today! 🌸📺✨
+Now Powered by the Gemini API, the Amazing MikoChan V2 is your go-to source for all things anime, from searching for your favorite shows to accessing detailed information and streaming links. With the Amazing MikoChan V2, you can explore the vast universe of anime and discover new shows to enjoy. So, what are you waiting for? Dive into the world of anime with the Amazing Project MikoChan V2 today! 🌸📺✨
 
 ## Unique Features
-**Search Anime:** With the Amazing MikoChan, you can search for your favorite anime shows effortlessly. Simply enter the name of the anime you're interested in, and the project will fetch all the relevant details.
+**Search Anime:** With the Amazing MikoChan V2, you can search for your favorite anime shows effortlessly. Simply enter the name of the anime you're interested in, and the project will fetch all the relevant details.
 
-**Detailed Information:** Gain access to comprehensive and captivating details about each anime you search for. The Amazing MikoChan will provide you with synopses, character information, and other juicy tidbits without spoiling the plot.
+**Detailed Information:** Gain access to comprehensive and captivating details about each anime you search for. The Amazing MikoChan V2 will provide you with synopses, character information, and other juicy tidbits without spoiling the plot.
 
-**Streaming Links:** Say goodbye to the hassle of finding reliable streaming links for anime episodes and movies. The Amazing MikoChan can conjure up streaming links with a single click, ensuring you can start watching your chosen anime immediately.
+**Streaming Links:** Say goodbye to the hassle of finding reliable streaming links for anime episodes and movies. The Amazing MikoChan V2 can conjure up streaming links with a single click, ensuring you can start watching your chosen anime immediately.
 
-**AI Chatbot:** The Amazing MikoChan is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered. AI Chatbot is powered by the Gemini API.
+**AI Chatbot:** The Amazing MikoChan V2 is equipped with an AI chatbot that can assist you with any queries or concerns you may have. Whether you need help navigating the project or want recommendations for new anime shows, the chatbot has got you covered. AI Chatbot is powered by the Gemini API.
 
-**Upcoming Features:** The Amazing MikoChan is continuously evolving and expanding its features. Stay tuned for upcoming updates that will bring even more exciting functionalities to enhance your anime experience.
+**Upcoming Features:** The Amazing MikoChan V2 is continuously evolving and expanding its features. Stay tuned for upcoming updates that will bring even more exciting functionalities to enhance your anime experience.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -32,16 +32,16 @@ Now Powered by the Gemini API, the Amazing MikoChan is your go-to source for all
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
-To get started with the Amazing Project MikoChan, follow these simple steps:
+To get started with the Amazing Project MikoChan V2, follow these simple steps:
 
 Clone the repository: 
 ```bash
-git clone https://github.com/Rahul-Sahani04/MikoChan-Telegram-Bot.git
+git clone https://github.com/Rahul-Sahani04/MikoChan V2-Telegram-Bot.git
 ```
 
 Navigate to the project directory: 
 ```bash
-cd MikoChan-Telegram-Bot-V2
+cd MikoChan V2-Telegram-Bot-V2
 ```
 
 Install the dependencies: 
@@ -54,7 +54,7 @@ Generate Chat History:
 python3 MikoChanBOT.py
 ```
 
-Run MikoChan: 
+Run MikoChan V2: 
 ```bash
 python3 AnimeMain.py
 ```
@@ -85,10 +85,10 @@ python3 AnimeMain.py
 Change the Token based on the token of your bot
 
 ## Documentation
-For detailed information on how to use the Amazing Project MikoChan, please refer to our complete documentation.
+For detailed information on how to use the Amazing Project MikoChan V2, please refer to our complete documentation.
 
 ## Contributing
-We welcome contributions from the community! If you'd like to contribute to the Amazing Project MikoChan.
+We welcome contributions from the community! If you'd like to contribute to the Amazing Project MikoChan V2.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
@@ -105,4 +105,4 @@ A special shoutout to [vishvara-sharda](https://github.com/vishvara-sharda) for 
 <br/>
 <br/>
 
-Thank you for choosing the Amazing Project MikoChan! We hope you find it captivating and exhilarating. Enjoy Anime! 😄✨
+Thank you for choosing the Amazing Project MikoChan V2! We hope you find it captivating and exhilarating. Enjoy Anime! 😄✨
