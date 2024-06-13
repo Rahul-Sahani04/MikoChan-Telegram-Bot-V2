@@ -43,7 +43,7 @@ git clone https://github.com/Rahul-Sahani04/MikoChan-Telegram-Bot-V2.git
 
 Navigate to the project directory: 
 ```bash
-cd MikoChan V2-Telegram-Bot-V2
+cd MikoChan-Telegram-Bot-V2
 ```
 
 Install the dependencies: 
