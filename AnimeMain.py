@@ -166,7 +166,7 @@ def get_anime_info_by_id(update, context):
         return "SELECT_EPISODE"
     else:
         update.message.reply_text("Enter anime ID to get info:")
-        return "SELECT_ANIME"
+        return "SELECT_EPISODE"
 
 
 def process_search(update, context):
@@ -366,7 +366,6 @@ def select_episode(update, context):
         anime_info = get_anime_info(anime_id)
         episode_after(update, context, anime_info, number)
         send_random_cute_message(update, context)
-        return ConversationHandler.END
       except ValueError:
           reply = get_gemini_reply(selected_episode_number)
           context.bot.send_message(chat_id=update.effective_chat.id, text=reply, parse_mode="MarkdownV2")
@@ -454,6 +453,8 @@ def handle_message(update: Update, context: CallbackContext):
     with open(history_file_path, "wb") as file:
         person = model.history
         pkl.dump(person, file)
+    
+    return ConversationHandler.END
 
 
 # Message handler to process image messages
@@ -494,6 +495,8 @@ def handle_image(update: Update, context: CallbackContext):
     with open(history_file_path, "wb") as file:
         person = model.history
         pkl.dump(person, file)
+        
+    return ConversationHandler.END
 
 
 # Function to handle errors
